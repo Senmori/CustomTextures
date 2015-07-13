@@ -1,0 +1,26 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: ${author}
+main: ${main.Class}
+depend: [WorldGuard]
+load: POSTWORLD
+commands:
+   ct:
+       description: Custom Textures main command.
+       aliases: [customtextures]
+permissions:
+    customtextures.options.disable:
+        default: true
+    customtextures.options.disable.others:
+        default: false
+    customtextures.options.enable:
+        default: true
+    customtextures.options.enable.others:
+        default: false
+    customtextures.options.set:
+        default: false
+    customtextures.options.remove:
+        default: false
+    customtextures.disable:
+        default: false

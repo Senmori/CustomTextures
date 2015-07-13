@@ -1,0 +1,11 @@
+settings:
+    show-permission-after-change: true
+    debug: true
+    default-resource-pack: http://url_here
+
+
+worlds:
+
+regions:
+
+do-not-load:
